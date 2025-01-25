@@ -6,7 +6,7 @@ Jam-packed Bubble Blasting Action, made for Global Game Jam 2025
 
 **Platform**: Gameboy (+emulators)
 
-**Demo**: [cybardev.itch.io/bubble](https://cybardev.itch.io/bubble)
+**Demo**: [cybardev.itch.io/bubble-blaster](https://cybardev.itch.io/bubble-blaster)
 
 ## Screenshots
 
