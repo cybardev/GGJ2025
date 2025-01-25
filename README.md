@@ -1,6 +1,6 @@
 # Bubble Blaster
 
-Project for Global Game Jam 2025
+Jam-packed Bubble Blasting Action, made for Global Game Jam 2025
 
 **Theme**: Bubble
 
