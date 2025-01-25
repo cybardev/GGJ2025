@@ -23,3 +23,7 @@ Jam-packed Bubble Blasting Action, made for Global Game Jam 2025
 ## License
 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Credits
+
+Sounds (`hammered.sav`) from [CBT-FX/FX-Hammer](https://github.com/coffeevalenbat/CBT-FX).
