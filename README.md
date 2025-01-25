@@ -8,6 +8,10 @@ Jam-packed Bubble Blasting Action, made for Global Game Jam 2025
 
 **Demo**: [cybardev.itch.io/bubble](https://cybardev.itch.io/bubble)
 
+## Screenshots
+
+<img width="592" alt="bubble-banner" src="https://github.com/user-attachments/assets/3016e962-80ea-4045-83ee-a2556dd99b64" />
+
 <img width="592" alt="bubble" src="https://github.com/user-attachments/assets/9abe2c72-47ae-4a72-8bfe-10c597d32f4c" />
 
 ## License
