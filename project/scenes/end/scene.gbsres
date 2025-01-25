@@ -62,7 +62,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Score:%D6$00$",
+        "text": "!F:dd68b75b-63a3-4f3a-8d35-6a26132e4428!Score:%D6$00$",
         "x": 4,
         "y": 9,
         "location": "background",
