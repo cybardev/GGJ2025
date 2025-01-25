@@ -6,7 +6,24 @@
   "x": 2,
   "y": 16,
   "symbol": "trigger_2",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "8701d664-fb53-46b6-9af5-418de9596d98": {
+      "id": "8701d664-fb53-46b6-9af5-418de9596d98",
+      "args": {
+        "input": [
+          "down"
+        ]
+      }
+    },
+    "922ac63d-6fb7-4b09-83f5-c7cc87fbe527": {
+      "id": "922ac63d-6fb7-4b09-83f5-c7cc87fbe527",
+      "args": {
+        "input": [
+          "down"
+        ]
+      }
+    }
+  },
   "width": 16,
   "height": 1,
   "script": [],

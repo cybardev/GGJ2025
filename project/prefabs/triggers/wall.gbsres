@@ -1,16 +1,44 @@
 {
   "_resourceType": "triggerPrefab",
-  "id": "743a6f69-3186-477a-95c6-7930a3ac3260",
+  "id": "2c3d7148-fafd-4c6a-adb4-60f32d41dd4b",
   "name": "Wall",
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
-        "customEventId": "729176e0-2334-4d7e-a556-59cf026e7ff1",
-        "__collapse": true
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
       },
-      "id": "98308bb2-9c94-4192-8813-3897d767c201"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              }
+            },
+            "id": "53df74d4-716c-45f7-a95f-c7a6f1ddb497"
+          }
+        ]
+      },
+      "id": "484b3c5a-d886-42c1-b84a-06baee85c443"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ]
+      },
+      "id": "09dc7cee-5d60-4f65-ab19-db2ef0fc0bda"
+    }
+  ]
 }

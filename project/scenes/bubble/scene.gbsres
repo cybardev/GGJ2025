@@ -13,7 +13,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 60,
+  "x": 240,
   "y": 208,
   "script": [
     {
@@ -26,16 +26,7 @@
       "id": "ad1c7f4e-a222-4507-a822-a931a2686441"
     }
   ],
-  "playerHit1Script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "729176e0-2334-4d7e-a556-59cf026e7ff1",
-        "__collapse": true
-      },
-      "id": "82704191-d267-43d3-aceb-b6c481b03896"
-    }
-  ],
+  "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "71d96d85-385e-47bc-965b-d59d96bf0622",
