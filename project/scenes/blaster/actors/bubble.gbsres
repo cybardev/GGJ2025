@@ -53,6 +53,22 @@
                   "id": "89c1cc37-a29c-4074-96a9-363b470b5e40"
                 },
                 {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e078b05b-8e79-4d08-841c-14690d513366",
+                    "priority": "medium",
+                    "pitch": 3,
+                    "frequency": 200,
+                    "duration": 0.2,
+                    "wait": false,
+                    "effect": 1,
+                    "__collapse": true,
+                    "__comment": false,
+                    "__label": "Play Pop SFX"
+                  },
+                  "id": "fcefcac4-188b-4c86-964f-c5e65c366bb5"
+                },
+                {
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "Pop Animation",
@@ -959,7 +975,7 @@
         "duration": 1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Countdown Timer"
       },
       "children": {
@@ -1237,6 +1253,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 15,
-  "y": 14,
+  "y": 5,
   "_index": 0
 }

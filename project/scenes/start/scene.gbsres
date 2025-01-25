@@ -38,6 +38,21 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e078b05b-8e79-4d08-841c-14690d513366",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 1,
+              "__label": "Play Pop SFX",
+              "__collapse": true
+            },
+            "id": "fb8068c5-11d8-4a57-9d74-5e34d3c01d4b"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "c27c9add-bd09-4897-a0c4-da4db0360038",
@@ -67,7 +82,7 @@
         "frames": 30,
         "__scriptTabs": "end",
         "__label": "Animations",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -91,7 +106,7 @@
                 "type": "number",
                 "value": 2
               },
-              "variable": "T0",
+              "variable": "L0",
               "tileSize": "16px",
               "__collapse": true,
               "__label": "Animate A Button"

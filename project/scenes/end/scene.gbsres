@@ -38,6 +38,21 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e078b05b-8e79-4d08-841c-14690d513366",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 8,
+              "__collapse": true,
+              "__label": "Play Blast SFX"
+            },
+            "id": "f0ec46ee-c168-4b48-9986-682cf0f60f22"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "b40b30f3-faeb-4891-b25a-4e842ada03dd",
@@ -77,7 +92,8 @@
         "duration": 1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__label": "Animations"
+        "__label": "Animations",
+        "__collapse": true
       },
       "children": {
         "script": [

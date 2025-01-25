@@ -46,6 +46,35 @@
             "id": "ee326ff2-aa82-4640-a568-7d4974073fe6"
           },
           {
+            "command": "EVENT_THREAD_START",
+            "args": {
+              "variable": "T0",
+              "__scriptTabs": "true",
+              "__label": "SFX Thread",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e078b05b-8e79-4d08-841c-14690d513366",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 8,
+                    "__collapse": true,
+                    "__label": "Play Blast SFX"
+                  },
+                  "id": "8bd21305-26b7-481e-baee-861797f4386b"
+                }
+              ]
+            },
+            "id": "583b0a67-bfa9-46b3-bb6b-561eea224900"
+          },
+          {
             "command": "EVENT_WAIT",
             "args": {
               "time": 1,
@@ -71,6 +100,35 @@
               "__collapse": true
             },
             "id": "eab78230-5b53-4f7f-941e-a22f89fd7dc6"
+          },
+          {
+            "command": "EVENT_THREAD_START",
+            "args": {
+              "variable": "T0",
+              "__scriptTabs": "true",
+              "__label": "SFX Thread",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e078b05b-8e79-4d08-841c-14690d513366",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 8,
+                    "__collapse": true,
+                    "__label": "Play Blast SFX"
+                  },
+                  "id": "2ff53d2c-05a6-4464-99e7-9acd04b209b2"
+                }
+              ]
+            },
+            "id": "521fa13b-5f79-46fa-ad94-653dce0d57f6"
           },
           {
             "command": "EVENT_WAIT",
@@ -100,6 +158,35 @@
             "id": "28dca9d9-ff9f-424d-af7b-a025ddd0b4fc"
           },
           {
+            "command": "EVENT_THREAD_START",
+            "args": {
+              "variable": "T0",
+              "__scriptTabs": "true",
+              "__label": "SFX Thread",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e078b05b-8e79-4d08-841c-14690d513366",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 8,
+                    "__collapse": true,
+                    "__label": "Play Blast SFX"
+                  },
+                  "id": "a2e6d73f-15e1-47cf-87b9-9d50a521019e"
+                }
+              ]
+            },
+            "id": "2b4cab4d-d9f0-47bb-9c3a-99eabaed3ace"
+          },
+          {
             "command": "EVENT_WAIT",
             "args": {
               "time": 1,
@@ -125,6 +212,35 @@
               "__collapse": true
             },
             "id": "945da769-e63d-4d81-9c6f-d927412733f1"
+          },
+          {
+            "command": "EVENT_THREAD_START",
+            "args": {
+              "variable": "T0",
+              "__scriptTabs": "true",
+              "__label": "SFX Thread",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e078b05b-8e79-4d08-841c-14690d513366",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 8,
+                    "__collapse": true,
+                    "__label": "Play Blast SFX"
+                  },
+                  "id": "f5270924-4a81-4d1c-a0c2-a08ff5e5dd97"
+                }
+              ]
+            },
+            "id": "65f262dc-574c-4bb8-a91c-aea6068b5db6"
           },
           {
             "command": "EVENT_WAIT",

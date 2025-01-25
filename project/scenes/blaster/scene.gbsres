@@ -100,6 +100,38 @@
         "__label": "Draw HUD"
       },
       "id": "c898fd7b-6767-4fcd-b57e-6786a076aa0b"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e078b05b-8e79-4d08-841c-14690d513366",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.2,
+              "wait": false,
+              "effect": 8,
+              "__collapse": true,
+              "__comment": false,
+              "__label": "Play Blast SFX"
+            },
+            "id": "a653deaf-1df7-4ec9-822d-d94416896568"
+          }
+        ]
+      },
+      "id": "39f80fa7-bc9f-4e7e-b2bb-ad97d448ae3b"
     }
   ],
   "playerHit1Script": [],
