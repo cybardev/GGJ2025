@@ -3,7 +3,7 @@
   "id": "e280932c-91c5-45f3-a092-9d2029fe13ba",
   "_index": 0,
   "name": "Bubble",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "1af41ab9-6896-471e-a139-447a5066d76f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -14,9 +14,30 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 60,
-  "y": 30,
-  "script": [],
-  "playerHit1Script": [],
+  "y": 208,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1,
+        "__collapse": true
+      },
+      "id": "ad1c7f4e-a222-4507-a822-a931a2686441"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "729176e0-2334-4d7e-a556-59cf026e7ff1",
+        "__collapse": true
+      },
+      "id": "82704191-d267-43d3-aceb-b6c481b03896"
+    }
+  ],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71d96d85-385e-47bc-965b-d59d96bf0622",
+  "autoFadeEventCollapse": true
 }

@@ -1,4 +1,15 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "7321f868-9459-4416-8ac8-f1d15e25f37f__L0",
+      "name": "shoot_chance",
+      "symbol": "var_shoot_chance"
+    },
+    {
+      "id": "7321f868-9459-4416-8ac8-f1d15e25f37f__L1",
+      "name": "blaster_pos",
+      "symbol": "var_blaster_pos"
+    }
+  ]
 }

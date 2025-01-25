@@ -1,0 +1,90 @@
+{
+  "_resourceType": "actor",
+  "id": "9c204a37-bb26-4d31-8404-2ef1bd1d36f4",
+  "name": "Bubble",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "71d96d85-385e-47bc-965b-d59d96bf0622",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "729176e0-2334-4d7e-a556-59cf026e7ff1",
+        "__collapse": true
+      },
+      "id": "68b63aa7-c758-43aa-9558-2c6ae2ab1eb9"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "add",
+                "valueA": {
+                  "type": "number",
+                  "value": 3
+                },
+                "valueB": {
+                  "type": "rnd",
+                  "value": {
+                    "type": "number",
+                    "value": 12
+                  }
+                }
+              },
+              "y": {
+                "type": "add",
+                "valueA": {
+                  "type": "number",
+                  "value": 5
+                },
+                "valueB": {
+                  "type": "rnd",
+                  "value": {
+                    "type": "number",
+                    "value": 9
+                  }
+                }
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "79f25e49-1cab-4ce0-b883-194a6585d146"
+          }
+        ]
+      },
+      "id": "6ab33771-cca4-41bb-b5b3-7c4eb37cb0d8"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 14,
+  "_index": 0
+}

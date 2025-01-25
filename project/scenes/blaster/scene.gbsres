@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "c27c9add-bd09-4897-a0c4-da4db0360038",
+  "_index": 1,
+  "name": "Blaster",
+  "backgroundId": "1af41ab9-6896-471e-a139-447a5066d76f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 60,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "b81ff065-a1d3-482d-8026-f764badec81f"
+}

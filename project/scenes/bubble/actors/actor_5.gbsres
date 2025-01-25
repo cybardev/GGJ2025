@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "f06689a4-e498-4bfa-b05a-fb88157f37a3",
+  "id": "6ca267f9-89ce-4ea7-8a3d-0fc4058141e7",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "",
+  "spriteSheetId": "71d96d85-385e-47bc-965b-d59d96bf0622",
+  "prefabId": "7321f868-9459-4416-8ac8-f1d15e25f37f",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -13,7 +13,36 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "aaf103e6-ee8d-4638-9405-d8ac86ecf109": {
+      "id": "aaf103e6-ee8d-4638-9405-d8ac86ecf109",
+      "args": {
+        "x": {
+          "type": "add",
+          "valueA": {
+            "type": "number",
+            "value": 3
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "L1"
+          }
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        }
+      }
+    },
+    "3b114e3d-abe3-4ce5-be13-109ca773dad3": {
+      "id": "3b114e3d-abe3-4ce5-be13-109ca773dad3",
+      "args": {
+        "direction": "down",
+        "__section": "source"
+      }
+    }
+  },
   "symbol": "actor_4",
   "script": [],
   "startScript": [],
@@ -21,7 +50,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 0,
-  "y": 6,
+  "x": 3,
+  "y": 2,
   "_index": 4
 }
