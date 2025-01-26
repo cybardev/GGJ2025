@@ -1165,7 +1165,7 @@
                     "__collapseCase15": false,
                     "value15": 16,
                     "__collapseElse": false,
-                    "__disableElse": true,
+                    "__disableElse": false,
                     "__label": "Wait Based on Speed"
                   },
                   "children": {
@@ -1235,7 +1235,17 @@
                     "true13": [],
                     "true14": [],
                     "true15": [],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.6,
+                          "frames": 30,
+                          "__collapse": true
+                        },
+                        "id": "76581797-64c8-4090-a23a-66318b6976b3"
+                      }
+                    ]
                   },
                   "id": "c7daab58-e1d5-4c1a-9275-a0556a9b17b9"
                 }
