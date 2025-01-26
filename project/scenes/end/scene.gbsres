@@ -46,7 +46,7 @@
               "frequency": 200,
               "duration": 0.5,
               "wait": true,
-              "effect": 8,
+              "effect": 1,
               "__collapse": true,
               "__label": "Play Blast SFX"
             },

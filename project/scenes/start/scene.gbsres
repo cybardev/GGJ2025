@@ -46,7 +46,7 @@
               "frequency": 200,
               "duration": 0.5,
               "wait": true,
-              "effect": 1,
+              "effect": 0,
               "__label": "Play Pop SFX",
               "__collapse": true
             },
