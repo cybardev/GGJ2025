@@ -53,6 +53,13 @@
             "id": "fb8068c5-11d8-4a57-9d74-5e34d3c01d4b"
           },
           {
+            "command": "EVENT_RNG_SEED",
+            "args": {
+              "__collapse": true
+            },
+            "id": "91a1b384-7bb4-49f8-820b-c46bc6735957"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "c27c9add-bd09-4897-a0c4-da4db0360038",
